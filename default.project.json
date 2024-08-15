@@ -1,0 +1,48 @@
+{
+  "name": "base",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Sources": {
+        "$path": "src/ReplicatedStorage"
+      },
+      "Animations": {
+        "$path": "Animations"
+      },
+      
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Tools": {
+        "$className": "Folder"
+      }
+    },
+
+    "ServerScriptService": {
+      "Sources": {
+        "$path": "src/ServerScriptService"
+      }
+    },
+
+    "ServerStorage": {
+      "Sources": {
+        "$path": "src/ServerStorage"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Sources": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts"
+        }
+      },
+
+      "StarterCharacterScripts": {
+        "Sources": {
+          "$path": "src/StarterPlayer/StarterCharacterScripts"
+        }
+      }
+    }
+  }
+}
